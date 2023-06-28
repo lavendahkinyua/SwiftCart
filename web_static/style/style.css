@@ -1,0 +1,112 @@
+@import
+url("https://fonts.googleapis.com/css?family=Popins:500, 400, 600");
+
+.home {
+    align-items: center;
+    background: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+    height: 1964px
+
+}
+.hidded, .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.overlap-group-container {
+    height: 798px;
+    position: relative;
+    width: 1512px;
+}
+
+.overlap-goup4 {
+    align-items: center;
+    background-color: var(--caribbean-green);
+    border-radius: 8px;
+    display: flex;
+    height: 79px;
+    left: 60px;
+    min-width: 199px;
+    position: absolute;
+    top: 587px;
+}
+
+.shop-now {
+    letter-spacing: -0.33px;
+    line-height: normal;
+    min-height: 33px;
+    min-width: 107px;
+}
+
+.overlap-goup5 {
+    align-items: center;
+    background-color: var(--caribbean-green);
+    border-radius: 8px;
+    display: flex;
+    height: 79px;
+    left: 322px;
+    min-width: 226px;
+    padding: 0 22px;
+    position: absolute;
+    top: 587px;
+}
+
+.top-navbar {
+    background-color: var(--white);
+    box-shadow: 0px 4px 10px #00000040;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.search-bar {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 32px;
+    min-width: 157px;
+}
+
+.overlap-group1 {
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+    min-width: 157px;
+    padding: 4px 3px;
+}
+
+.search-1 {
+    height: 24px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    width: 24px;
+}
+
+.search {
+    color: #adadad;
+    font-family: var(--font-family-popins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 18px;
+    width: 107px;
+}
+
+.line-1 {
+    align-self: flex-start;
+    height: 30px;
+    margin-left: 13px;
+    object-fit: cover;
+    width: 1px;
+}
