@@ -6,7 +6,7 @@
         <title>SwiftCart</title>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="SwiftCart/web_static/style/style.css">
+        <link rel="stylesheet" href="../style/style.css">
         <script src="https://kit.fontawesome.com/d6308143bb.js"
             crossorigin="anonymous"></script>
             <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -14,125 +14,30 @@
     <body>
         <!-- top nav bar -->
         <div class="top-navbar">
-            <div class="logo">
-                <b href="index.php"><img src="SwiftCart/web_static/images/cart-6@2x.png" alt="logo"></a>
-            </div>
-
-            <div class="nav-group">
-                <a class="active" href="index.php">Home</a>
+            <img src="../images/cart-6@2x.png" alt="logo" class="logo">
+            <div class="logo-text">SwiftCart</div>
+            <div class="nav-links">
+                <a href="index.php" class="home">Home</a>
                 <a href="#store">Store</a>
                 <a href="#promotions">Promotions</a>
                 <a href="#about">About</a>
             </div>
-                <style>
-                /* style Top Navbar */
-                .top-navbar {
-                    overflow: hidden;
-                    background-color: #fcfbfb;
-                    position: fixed;
-                    top: 0;
-                    width: 100%;
-                    z-index: 1;
-                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-                }
-
-                /* Style the links inside the navigation bar */
-                .top-navbar a {
-                    float: left;
-                    padding: 14px 16px;
-                    font-size: 15px;
-                    font-family: Poppins;
-                    margin-left: 40px;
-                    margin-top: 9px;
-                    line-height: normal;
-                    font-weight: 500;
-                    color: #000000;
-                    
-                }
-
-                .index.php {
-                    color: #0ACF83;
-                }
-                /* style the logo */
-                .logo {
-                    float: left;
-                    padding: 14px 16px;
-                    font-size: 17px;
-                    font-family: Poppins;
-                    width: 178;
-                    height: 42 ;
-                }
-
-                
-                </style>
+               
+            <!--search bar-->
             <div class="search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </form>
             </div>
-
-            <!--user profile icon-->
-            <div class="fa-user">
+            <!--user icon-->
+            <div class="user-icon">
                 <a href="login.php"><i class="fas fa-user"></i></a>
             </div>
             <!--cart icon-->
-            <div class="fa-basket-shopping">
-                <a href="cart.php"><i class="fas fa-shopping-basket"></i></a>
+            <div class="cart-icon">
+                <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
             </div>
-            <style>
-                /* style user icon */
-                .fa-user {
-                    float: right;
-                    font-size: 20px;
-                    margin-top: 5px;
-                    margin-right: 10px;
-                }
-
-                /* style cart icon */
-                .fa-basket-shopping {
-                    float: left;
-                    font-size: 20px;
-                    
-                }
-            </style>
-
-
-            <style>
-                /* style search bar */
-                .search-container {
-                    float: left;
-                    margin-left: 60px;
-                    align-items: flex-start;
-                    display: flex;
-                    margin-left: 32px;
-                    min-width: 157; 
-                    margin-top: 6.5px;
-                }
-
-                .search-container input[type=text] {
-                    padding: 7.5px;
-                    margin-top: 8px;
-                    font-size: 12px;
-                }
-
-                .search-container button {
-                    float: right;
-                    padding: 7px 10px;
-                    margin-top: 8px;
-                    margin-right: 16px;
-                    background: #ddd;
-                    font-size: 17px;
-                    border: none;
-                    cursor: pointer;
-                }
-
-                .search-container button:hover {
-                    background: #ccc;
-                }
-                
-            </style>
-        </div>
         </div>
     </body>
 </html>

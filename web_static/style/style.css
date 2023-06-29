@@ -1,2 +1,97 @@
-<a href="#user"><i class="fas fa-user" style="color: black;"></i></a>
-            <i class="fas fa-basket-shopping" style="color: black;"></i>
+
+/* style Top Navbar */
+.top-navbar {
+ 
+    background-color: #fcfbfb;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Style the links inside the navigation bar */
+.nav-links {
+    float: left;
+    padding: 7px 100px;
+    font-size: 15px;
+    font-family: Poppins;
+    margin-left: 40px;
+    margin-top: 5px;
+    line-height: normal;
+    font-weight: 500;
+    
+}
+
+.top-navbar .nav-links a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-navbar .nav-links .home {
+    color: #0ACF83;
+}
+
+   /* style search bar */
+   .search-container {
+    float: left;
+    display: flex;
+    min-width: 157; 
+    margin-top: -4px;
+    margin-right: 70px;
+}
+
+.search-container input[type=text] {
+    padding: 7.5px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.search-container button {
+    float: right;
+    padding: 7px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+/* resize the logo */
+.logo {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-text {
+    float: left;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-left: 1px;
+    color: #0ACF83;
+}
+
+.fa-user {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* style the cart */
+.fa-shopping-cart {
+    color: #000000;
+    font-size: 20px;
+}
