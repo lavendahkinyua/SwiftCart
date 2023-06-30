@@ -16,16 +16,26 @@ nav {
     width: 100%;
     box-shadow: 0 5px 10px -5px #7d807f;
     text-decoration: none;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo{
     float: left;
     padding: 0px;
-    width: 42;
+    width: 178px;
     height: 42px;
     margin-top: 17px;
     margin-left: 50px;
     color: #0ACF83;
+    background-image: url("../images/cart-6@2x.png");
+    background-repeat: no-repeat;
 }
 
 label{
@@ -140,4 +150,75 @@ section {
     background-repeat: no-repeat;
     position: left;
     float: right;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #0ACF83;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.search-container {
+    position: relative;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 155px;
+    height: 40px;
+}
+
+.search-container input[type=text] {
+    font-size: 12px;
+    color: #1a1919;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.18;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+
+}
+
+.search-container::after {
+    content: "";
+    width: 2px;
+    height: 90%;
+    background-color: #1a1919;
+    position: absolute;
+    top: 2px;
+    right: 35px;
+    
+}
+
+.search-container button {
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-color: none;
+    color: #030303;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.18;
+    outline: none;
+}
+
+hr{
+    position: absolute;
+    top: 825px;
 }
