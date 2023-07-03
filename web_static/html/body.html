@@ -6,33 +6,58 @@
         <title>SwiftCart</title>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/body.css">
         <script src="https://kit.fontawesome.com/d6308143bb.js"
             crossorigin="anonymous"></script>
-            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Poppins'
+            rel='stylesheet'>
     </head>
-    <body>
-       <!--navbar-->
-       <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-        </label>
-        <img src="../images/cart-6@2x.png" alt="logo" class="logo">
-        <label for="logo">SwiftCart</label>
-        <ul>
-            <li><a class="active" href="../html/index.html" class="home">Home</a></li>
-            <li><a href="../html/about.html">Store</a></li>
-            <li><a href="../html/contact.html">Promotion</a></li>
-            <li><a href="../html/login.html">About</a></li>
-        </ul>
-       </nav>
-         <!--end of navbar-->
 
-         <section class="hero">
-            <h1>Best platform for African Groceries Supplier</h1>
-         </section>
-         <hr>
+    <body>
+        <!--navbar-->
+        <nav>
+            <!-- <div class="logo"></div>     -->
+            <div class="logo">
+                <!-- <img src="../images/cart-6@2x.png " alt="Image"> -->
+                <label for="logo">SwiftCart</label>
+            </div>
+            <div>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+
+            <ul>
+                <li><a class="active" href="../html/index.html" class="home">Home</a></li>
+                <li><a href="../html/about.html">Store</a></li>
+                <li><a href="../html/contact.html">Promotion</a></li>
+                <li><a href="../html/login.html">About</a></li>
+
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <!---links for a profile and basket-->
+            <div class="profile">
+                <a href="../html/login.html"><i class="fas fa-user"></i></a>
+                <a href="../html/basket.html"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+        <!--end of navbar-->
+
+        <!--main-->
+        <section>
+            <h1>Best platform for African <br> Groceries Supplier</h1>
+            <p>Elevate your grocery shopping to new heights with our exceptional
+                platform. Immerse yourself in a curated selection of top-quality
+                products, enjoy convenient delivery options, and embark on a
+                culinary adventure like no other. Join us now and experience the
+                future of grocery shopping!</p>
+            <!-- <button class="shop-now">Shop Now</button>
+            <button class="see-how-it-works ">See How it works</button> -->
+        </section>
 
     </body>
 </html>
