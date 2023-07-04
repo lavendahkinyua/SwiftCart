@@ -324,7 +324,7 @@ hr {
     }
 }
 
-/* Additional CSS rule */
+/* Additional CSS rule
 section:after {
     content: "";
     position: absolute;
@@ -334,4 +334,4 @@ section:after {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none;
-}
+} */
