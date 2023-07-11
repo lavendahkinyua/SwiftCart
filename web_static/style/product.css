@@ -16,6 +16,16 @@ body {
 
 /* text */
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 508px;
+    height: 220px;
+    padding-top: 192px;
+    padding-left: 140px;
+    justify-content: space-between;
+}
+
 .first-text {
     color: #254337;
     font-family: Poppins;
@@ -43,15 +53,7 @@ body {
 
 /* product container */
 
-.text-container {
-    display: flex;
-    flex-direction: column;
-    width: 508px;
-    height: 220px;
-    padding-top: 192px;
-    padding-left: 140px;
-    justify-content: space-between;
-}
+
 
 
 
